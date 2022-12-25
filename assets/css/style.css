@@ -167,7 +167,7 @@ h1{
     
 }
 hr {
-    left:70%;
+    left: 70%;
     border-bottom: 1px solid #888;
     line-height: 5px;
 }
@@ -190,8 +190,27 @@ hr {
     left: 0;
     border: 2px solid #fff;
     background-color: aqua;
-    }
+}
 #video-content h2 {
     text-align: center;
     margin: 25px 0;
-    font-size: 260%;}
+    font-size: 260%;
+}
+ /*style footer element*/
+ footer {
+    height: 150px;
+
+}
+.share-links {
+    text-align: center;
+}
+.share-links >li {    
+    display: inline;
+}
+
+.share-links i{
+    font-size:160%;
+    margin: 1%;
+    padding: 5% ;
+    color: #47486e;
+}
