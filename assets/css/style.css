@@ -108,16 +108,54 @@ h1{
     border: 2px solid #ffff;
     border-radius: 5px;
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    line-height: 20px;
+    padding-bottom: 30px;
+    padding-top:  30px;
+    
+    line-height: 35px;
     box-sizing: border-box;
 }
-#festivals-info h2 {
+#festivals-info h1 {
     text-align: center;
     margin: 20px 0;
     font-size: 260%;
 }
-div > h3{
-    line-height: 30px;
+
+
+/*style invite reqest structure*/
+
+#left-item{
+    width: 33%;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid #888;
+    float: left;
+}
+#right-item{
+    background-color: chocolate;
+    border: 1px solid #888;
+    width: 33%;
+    height: 100px;
+    float: right;
+}
+#middle-item{
+    background-color: chartreuse;
+    border: 1px solid #8888;
+    width: 33%;
+    height: 100px;
+    margin: auto;
+}
+/*style class left, middle and right item text*/
+.left-item-text{
+    width: 80%;
+    text-align: center;
+    margin-left: 35px;
+    line-height: 20px;
+    padding: 20px;
+}
+.right-item-text{
+    width:80%;
+    text-align: center;
+    margin-left: 35px;
+    padding: 20px;
+    line-height:20px;
 }
