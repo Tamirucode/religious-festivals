@@ -224,3 +224,10 @@ hr {
 #picture img {
     width: 100%;
 }
+    /*style google map*/
+#google-map > iframe {
+    width: 100% ;
+    margin: 0 auto;
+    height: 400px;
+    padding: 10px 10px;
+}    
