@@ -204,12 +204,12 @@ hr {
 .share-links {
     text-align: center;
 }
-.share-links >li {    
+.share-links > li {    
     display: inline;
 }
 
 .share-links i{
-    font-size:160%;
+    font-size: 160%;
     margin: 1%;
     padding: 5% ;
     color: #47486e;
