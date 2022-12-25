@@ -91,8 +91,33 @@ h1{
     background-color: rgba(219, 107, 241, 0.774);
     border-radius: 5px;
     
-    bottom:150px;
-    left:150px;
+    bottom: 150px;
+    left: 150px;
     
     position: absolute;
+}
+/* style festivals place and time info presntion*/
+#festivals-info{
+    width: 100%;
+}
+#festivals-info div {
+    background-color:#8888;
+    width: 33%;
+    height: 200px;
+    float: left;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+#festivals-info h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 260%;
+}
+div > h3{
+    line-height: 30px;
 }
