@@ -214,3 +214,13 @@ hr {
     padding: 5% ;
     color: #47486e;
 }
+ /*style gallery structure */
+ #picture{
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0;
+}
+#picture img {
+    width: 100%;
+}
