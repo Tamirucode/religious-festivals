@@ -170,10 +170,28 @@ hr {
     left:70%;
     border-bottom: 1px solid #888;
     line-height: 5px;
-
 }
 #invite {
     text-align: center;
     margin: 25px 0;
     font-size: 260%;
     }
+    /*style youtube video content structre*/
+    
+.video-wrapper{
+    height: 0;
+    padding-bottom: 56px; 
+}    
+.video-wrapper iframe {
+    float: left;
+    width: 33%;
+    height: 250px ;
+    top: 0; 
+    left: 0;
+    border: 2px solid #fff;
+    background-color: aqua;
+    }
+#video-content h2 {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 260%;}
