@@ -9,7 +9,7 @@ body {
     font-weight: 300;
     color: #47486e;
 }
-h1{
+h1,h2{
     font-family: poppins,sans-serif;
     text-transform: uppercase;
     color: #47486e;
@@ -230,4 +230,52 @@ hr {
     margin: 0 auto;
     height: 400px;
     padding: 10px 10px;
-}    
+} 
+/*style sign up structure*/
+
+.signup-form 
+{
+    color: #fff;
+    background-color: rgba(231, 149, 26, 0.822);
+    max-width: 400px;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+    /*style sign up heading and input section*/
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+.text-input {
+    background: transparent;
+    color: #000;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+.text-input:hover {
+    border-color: #b80000;
+}
+.button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #ffff;
+    color: black;
+   
+}
+.button:hover {
+    background-color: #45a049;
+}  
+/*using container for form to enable us footer stay bottom */ 
+#container{
+    height: 70vh;
+    padding:10px;
+    
+} 
