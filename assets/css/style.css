@@ -172,3 +172,8 @@ hr {
     line-height: 5px;
 
 }
+#invite {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 260%;
+    }
