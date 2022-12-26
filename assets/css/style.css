@@ -328,6 +328,7 @@ hr {display: none;
       width: 100%;
     text-align: left;
     
+    
     }
 .right-item-text p, .left-item-text p{
     text-align: left;
@@ -338,11 +339,21 @@ hr {display: none;
 .middle-item-text{
     width: 80%;
 }
-.middle-item-text h2 {
+.middle-item-text h2{
     text-align: left;
     padding-left: 25px;
-    
-    
-    
+}
+#invite{
+    clear: both;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#festivals-info > div{
+    width: 100%;
+    clear: both;
+    padding: 10px 0 10px 0 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 }
