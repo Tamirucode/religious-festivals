@@ -1,108 +1,68 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Tamirucode,
+[link to Religious Festivals](https://tamirucode.github.io/religious-festivals/)
+## Introduction
+Ethiopia has the two biggest religious festivals that are celebrated once a year. These are Meskel and Timkate. The former is on the 26th of September, the latter on the 18th and 19th of January. Meskel can be called "The Finding of the True Cross" whereas Timkate is "Ethiopian Epiphany".
+## overview
+A religious festival website is a good place to start looking for information about events. It will tell you about when and where they are interesting festivals. It will also generally allow taking a virtual tour of festivals.
+The site targets people looking for exciting religious festival destinations, where they enjoy, have memorable moments and lift experiences.
+##  Features
+  
+  ## Religious festivals
+   ### **The landing  page image**
+		     It shows the celebration of Meskel festivals  at Meskel square, in Addis Ababa, Ethiopia
+###	    **Festivals celebration section**
+		    This section will allow the user to see when the festivals will happen, where they will be located, and how many hours the festival will be taken
+###	    **Request invitation section**
+		    This section will allow the user to see the experience when attending religious festivals, it provides entertainment, encountering new dishes, and memorable moments last forever.
+###	    **The video**
+		    The video section provides the user  to see how colorfully the festivals celebrated  previously and draws their  attention.It is supporting the image presented in the gallery section. 
+###	    **Gallery**
+		    The gallery will provide the user with supporting images to see what the festivals look like
+###	    **Google map**
+		    The map will allow the user with the best route toward the festival destination.
+		    It is valuable to users with added custom names to festival places, names and times, also big help the user get where they need to go.
+###	    **The sign-up page**
+		    This page will allow the user to get signed up for religious festivals to attend the celebration with the community. The user will be requested to submit their full name and email address 
+###	    **The footer**
+		    This section includes links to the relevant social media sites which enables the user to easily navigate them.  
+##    Features  left to implement
+        I intended to include a hotel booking link it allows the user easily look for a short time stay without going out the site. 
+	    Inaddition to this, in the future I will add attendees'feedback enables us to see inside usesrs mind whether  they are satisfied or not which helps further enhancement of the site.
+        Finally, the sponsor logos to give plenty of exposure that will benefit both  the company and the site owner
+## Testing
+     Validator Testing
+	    HTML
+		No errors were returned when passing through the official w3c validator
+	    CSS
+		No errors were found when passing the official (Jigsaw)validator
+## Unfixed Bugs
+## Deployment steps
+	1. At the my-full-template repository click on the setting link.
+	2. Scroll down the Git-hub page section
+	3. Click master branch then click main and save
+	4. Just see our site ready to be published
+	5. Refresh the page to say that our site is published
+	6. It gives us a link and click the link
+	7. Got it,
+##  Technology  used
+	HTML
+    CSS
+## Frameworks, Library and Program
+	1. Hover: CSS
+	2. Google fonts
+	4. Git
+ 		used Git terminal to commit to Git and push to Git hub
+	5.GitHub
+		store the project code after being pushed from Git
+## Code
+    MDN 
+    web doc
+    love running project
+## Content
+    The content is written by developers
+    Instruction on how to implement form validation on the signup pages was taken from the love running project.
+    The icons in the footer were taken from  Font Awesome
+## Media
+    Both the photo used on the home page and the image used for the gallery page were taken from google Images.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
