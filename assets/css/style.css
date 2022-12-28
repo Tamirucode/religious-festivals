@@ -71,11 +71,10 @@ h1,h2{
 @keyframes landing-zoom {
     from {
         transform: scale(1);
-    }
+}
     to { 
         transform: scale(1.1);
-    }
-
+}
 }
 /*style image-description*/
 #image-descript {
@@ -87,7 +86,7 @@ h1,h2{
     padding-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fff;
+    color:inherit;
     background-color: rgba(219, 107, 241, 0.774);
     border-radius: 5px;
     
@@ -114,10 +113,10 @@ h1,h2{
     line-height: 35px;
     box-sizing: border-box;
 }
-#festivals-info h1 {
+#festivals-info h2 {
     text-align: center;
     margin: 20px 0;
-    font-size: 260%;
+    font-size: 240%;
 }
 
 
@@ -126,19 +125,19 @@ h1,h2{
 #left-item{
     width: 33%;
     height: 100px;
-    background-color: aqua;
+    
     border: 1px solid #888;
     float: left;
 }
 #right-item{
-    background-color: chocolate;
+    
     border: 1px solid #888;
     width: 33%;
     height: 100px;
     float: right;
 }
 #middle-item{
-    background-color: chartreuse;
+   
     border: 1px solid #8888;
     width: 33%;
     height: 100px;
@@ -164,8 +163,10 @@ h1,h2{
     text-align: center;
     padding: 20px 35px;
     line-height: 20px;
-    
-    
+}
+.middle-item-text h3, .right-item-text h3, .left-item-text h3{ 
+    text-transform: uppercase;
+    color: inherit;
 }
 hr {
     left: 70%;
@@ -175,8 +176,8 @@ hr {
 #invite {
     text-align: center;
     margin: 25px 0;
-    font-size: 260%;
-    }
+    font-size: 240%;
+}
     /*style youtube video content structre*/
     
 .video-wrapper{
@@ -190,12 +191,11 @@ hr {
     top: 0; 
     left: 0;
     border: 2px solid #fff;
-    background-color: aqua;
 }
 #video-content h2 {
     text-align: center;
     margin: 25px 0;
-    font-size: 260%;
+    font-size: 240%;
 }
  /*style footer element*/
  footer {
@@ -208,7 +208,6 @@ hr {
 .share-links > li {    
     display: inline;
 }
-
 .share-links i{
     font-size: 160%;
     margin: 1%;
@@ -233,6 +232,7 @@ hr {
     width: 100% ;
     margin: 0 auto;
     padding: 10px 10px;
+    height: 500px;
 } 
 /*style sign up structure*/
 
@@ -279,7 +279,7 @@ hr {
 /*using container for form to enable us footer stay bottom */ 
 #container{
     height: 70vh;
-    padding:10px;
+    padding: 10px;
     
 } 
  /*media query*/
@@ -305,48 +305,59 @@ hr {
 }
 hr {display: none;
 }
-
-
 .video-wrapper > iframe{
     width: 100%;
     clear: both;
     margin: 0;
     padding: 0;
 }
-
+#video-content h2{
+    clear: both;
+    font-size: 260%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 }
 @media screen and (max-width:950px){
-#menu{
+
+
+#menu {
     clear: left;
     float: left;
-    margin-left: 30px;
+    margin-left:30px;
     margin-bottom: 20px;
     line-height: 25px;
 }
+
+
 #image-descript {
-    left:0;}
+    left: 0;
+    color: inherit;
+}
 #invite-request {
     width: 98%;
-    height: 400px;
+    height: 360px;
     margin: 0 auto;
 }
 #invite{
-    font-size: 190%;
-
+    font-size: 160%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-
 .right-item-text, .left-item-text{
     width:100%;
     padding: 0;
     margin: 0;
     line-height: 20px;
 }
-.right-item-text h2, .left-item-text h2{
+.right-item-text h3, .left-item-text h3{
     padding: 0;
     text-align: center;
+    text-transform: uppercase;
 }
 .right-item-text p, .left-item-text p{
     width: 100%;
+    
     
 }
 .middle-item-text{
@@ -355,8 +366,14 @@ hr {display: none;
     padding: 0;
     margin: 0;
 }
-.middle-item-text h2{
+.middle-item-text h3{
     text-align: center;
+    padding: 0;
+    text-transform: uppercase;
+    
+}
+.middle-item-text p{
+    width: 100%;
     padding: 0;
 }
 #video-content{
@@ -366,24 +383,26 @@ hr {display: none;
 }
 #video-content h2{
     clear: both;
+    font-size: 160%;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 190%;
 }
+
 #festivals-info > div{
     width: 100%;
     clear: both;
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-}
-#festivals-info{
-    height:700px;
-}
-#festivals-info h1 {
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 190%;
+    
+}
+
+#festivals-info{
+    height: 660px;
+}
+#festivals-info h2 {
+    font-size: 160%;
+    margin:20px 0;
+    text-align: center;
 }
 #google-map{
     clear: both;
@@ -403,4 +422,28 @@ hr {display: none;
     }
 }
 
+@media screen and (max-width:320px){
+#menu {
+        font-size: 70%;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: 0;
+        display: inline;
+}
+#logo {
+        width: 100%;
+        font-size: 100%;
+        margin-bottom: 0;
+        padding: 0;
+        text-align: center;
+        color: red;
+ }
+ #festivals-info > div{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 90%;
+ }
 
+
+
+}
