@@ -1,15 +1,21 @@
 
-[link to Religious Festivals](https://tamirucode.github.io/religious-festivals/)
+[link to Religious Festivals site](https://tamirucode.github.io/religious-festivals/)
+
 ## Introduction
 Ethiopia has the two biggest religious festivals that are celebrated once a year. These are Meskel and Timkate. The former is on the 26th of September, the latter on the 18th and 19th of January. Meskel can be called "The Finding of the True Cross" whereas Timkate is "Ethiopian Epiphany".
 ## overview
 A religious festival website is a good place to start looking for information about events. It will tell you about when and where they are interesting festivals. It will also generally allow taking a virtual tour of festivals.
 The site targets people looking for exciting religious festival destinations, where they enjoy, have memorable moments and lift experiences.
-##  Features
+
+##  Existing Features
   
-  ## Religious festivals
-   ### **The landing  page image**
+###      __Navigation bar__
+			It offered three web pages links to help the users to navigate the website easily and quickly.
+			It includes home, gallery and sign up pages.It allows the users to easily navigate first web page 
+			and go to the next without using back button of the browser.
+###     **The landing  image**
 		     It shows the celebration of Meskel festivals  at Meskel square, in Addis Ababa, Ethiopia
+
 ###	    **Festivals celebration section**
 		    This section will allow the user to see when the festivals will happen, where they will be located, and how many hours the festival will be taken
 ###	    **Request invitation section**
@@ -35,7 +41,16 @@ The site targets people looking for exciting religious festival destinations, wh
 		No errors were returned when passing through the official w3c validator
 	    CSS
 		No errors were found when passing the official (Jigsaw)validator
-## Unfixed Bugs
+### Responsiveness  Test
+		Google Chrome Devtools and Responsivness Design Checker were applied
+		iphone5/se, iphone6/7/8/plus,iPhone 12Pro, all the  individual site features are passed
+		iPad Air,iPad Mini, iPad Pro, iPad are reflects responsiveness
+		computer max-width1200px also passsed
+### Lighthouse testing
+		I carried out lighthouse test but the performance fluctuating from one browser to the other, also once has been done and varies we did it again, so I couldn't be able to decide which one exactly figure out.
+## Fixed Bugs
+		when validating the code, in the html files has found a few errors, like semantic structure 
+		elemnet order and these have been fixed. But no error at all in CSS. 
 ## Deployment steps
 	1. At the my-full-template repository click on the setting link.
 	2. Scroll down the Git-hub page section
@@ -44,6 +59,14 @@ The site targets people looking for exciting religious festival destinations, wh
 	5. Refresh the page to say that our site is published
 	6. It gives us a link and click the link
 	7. Got it,
+## To create a local clone of a project
+	1.Click on the code next to the green Gitpod button
+	2.Again click code dropdown menu
+	3.In the HTTPS section, click on the clipboard icon to copy the display URL
+	4.In your IDE preference, open Git Bash
+	5.Change the current directory to the place where you want the Clone directory to be made
+	6.Type Git Clone and paste the URL copied from Github
+	7.Press enter and then the local Clone will be created
 ##  Technology  used
 	HTML
     CSS
@@ -54,15 +77,18 @@ The site targets people looking for exciting religious festival destinations, wh
  		used Git terminal to commit to Git and push to Git hub
 	5.GitHub
 		store the project code after being pushed from Git
-## Code
-    MDN 
-    web doc
-    love running project
-## Content
+## Credits
+   ### Code
+         MDN web docs
+         love running project
+		 www.w3schools.com
+   ### Content
     The content is written by developers
     Instruction on how to implement form validation on the signup pages was taken from the love running project.
-    The icons in the footer were taken from  Font Awesome
-## Media
+    The icons in the footer and invite-request section were taken from  Font Awesome.
+   ### Media
     Both the photo used on the home page and the image used for the gallery page were taken from google Images.
+## Acknowledgement 
+	I recieved extra help from my mentor and fellow students on slack.
 
 
