@@ -49,8 +49,8 @@ The site targets people looking for exciting religious festival destinations, wh
 ### Lighthouse testing
 		I carried out lighthouse test but the performance fluctuating from one browser to the other, also once has been done and varies we did it again, so I couldn't be able to decide which one exactly figure out.
 ## Fixed Bugs
-		when validating the code, in the html files has found a few errors, like semantic structure 
-		elemnet order and these have been fixed. But no error at all in CSS. 
+		when validating the code, in the html files has found a few errors, like semantic element usage
+		 order  and these have been fixed. But no error at all in CSS. 
 ## Deployment steps
 	1. At the my-full-template repository click on the setting link.
 	2. Scroll down the Git-hub page section
