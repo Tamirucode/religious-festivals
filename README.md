@@ -21,7 +21,7 @@ The site targets people looking for exciting religious festival destinations, wh
 ![landing-page](https://github.com/Tamirucode/readme-template/blob/main/landing-page.png)
 ###	    **Festivals celebration section**
 		    This section will allow the user to see when the festivals will happen, where they will be located, and how many hours the festival will be taken
-			![festival-celeb](https://github.com/Tamirucode/readme-template/blob/main/festival-celeb.png)
+![festival-celeb](https://github.com/Tamirucode/readme-template/blob/main/festival-celeb.png)
 ###	    **Request invitation section**
 		    This section will allow the user to see the experience when attending religious festivals, it provides entertainment, encountering new dishes, and memorable moments last forever.
 ![invite-image](https://github.com/Tamirucode/readme-template/blob/main/invite-image.png)
