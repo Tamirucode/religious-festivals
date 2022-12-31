@@ -49,7 +49,7 @@ The site targets people looking for exciting religious festival destinations, wh
 		iphone5/se, iphone6/7/8/plus,iPhone 12Pro, /max-width:320px/
 		iPad Air,iPad Mini, iPad Pro, iPad         /max-width:768px/
 		laptop										/max-width:1280px/
-		Desktop										/max-width:160px/
+		Desktop										/max-width:1600px/
 ### Lighthouse testing
 		I performed the test to see the quality of my web page. The audit report showed that the result best accessibility and good  best practice, search engine optimization  but performance seems to fluctuate in score
 		and even below average.
